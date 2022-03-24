@@ -1,4 +1,6 @@
-﻿namespace Battleships
+﻿using System;
+
+namespace Battleships
 {
     class Program
     {

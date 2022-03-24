@@ -29,6 +29,7 @@ namespace Battleships.UserInterface
         
         public void PrintMenu(ref int pointer, string playerOne, string playerTwo)
         {
+            Console.SetWindowSize(Console.LargestWindowWidth, Console.LargestWindowHeight);
             Console.Clear();
             Console.ForegroundColor = _colors["menuForeground"];
             Console.BackgroundColor = _colors["mainBackgroundColor"];
