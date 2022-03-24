@@ -26,8 +26,7 @@ namespace Battleships
             {
                 "Player" => new Player(playerNum == 1 ? "Player 1" : "Player 2"),
                 "Easy AI" => new Player("Computer", new EasyAiShoot()),
-                "Normal AI" => new Player("Computer", new NormalAiShoot()),
-                "Hard AI" => new Player("Computer", new HardAiShoot())
+                "Normal AI" => new Player("Computer", new NormalAiShoot())
             };
         }
     }

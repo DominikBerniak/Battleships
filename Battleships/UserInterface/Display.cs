@@ -68,9 +68,6 @@ namespace Battleships.UserInterface
             Console.WriteLine();
             Console.Write(GetIndent(15) + "- Normal AI");
             Console.WriteLine(GetIndent(96) + "Submarine - size: 5");
-            Console.WriteLine();
-            Console.Write(GetIndent(15) + "- Hard AI");
-            Console.WriteLine(GetIndent(98) + "Destroyer - size: 6");
             Console.WriteLine(GetNewLines());
             Console.Write(GetIndent(6) + "2. Start the game by selecting > Start <");
             Console.WriteLine(GetIndent(79) + "Board legend:");

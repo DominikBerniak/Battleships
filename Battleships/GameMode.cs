@@ -43,8 +43,7 @@ namespace Battleships
             {
                 "Player" => "Easy AI",
                 "Easy AI" => "Normal AI",
-                "Normal AI" => "Hard AI",
-                "Hard AI" => "Player",
+                "Normal AI" => "Player",
                 _ => "error"
             };
         }
